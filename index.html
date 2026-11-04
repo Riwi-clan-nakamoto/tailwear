@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwear // Drop 01</title>
+    
+    <!-- Google Fonts: Inter, UnifrakturMaguntia e IBM Plex Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS Play CDN con configuración de colores de la marca -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'tw-black': '#000000',
+                'tw-surface': '#0f0f0f',
+                'tw-gray-dark': '#262626',
+                'tw-gray-mid': '#737373',
+                'tw-gray-light': '#d4d4d4',
+                'tw-white': '#ffffff',
+                'tw-orange': { DEFAULT: '#ff5500', dark: '#cc4400' },
+                'tw-blue': { DEFAULT: '#3b82f6', subtle: '#1e3a8a' },
+              },
+              fontFamily: {
+                'sans': ['Inter', 'sans-serif'],
+                'display': ['UnifrakturMaguntia', 'serif'],
+                'mono': ['IBM Plex Mono', 'monospace'],
+              },
+            }
+          }
+        }
+    </script>
+</head>
+<body class="bg-black text-white font-sans">
